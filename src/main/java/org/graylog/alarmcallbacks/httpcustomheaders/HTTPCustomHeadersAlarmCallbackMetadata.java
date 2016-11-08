@@ -31,7 +31,7 @@ public class HTTPCustomHeadersAlarmCallbackMetadata implements PluginMetaData {
 
     @Override
     public Version getVersion() {
-        return Version.from(1, 0, 0);
+        return new Version(1, 0, 0);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class HTTPCustomHeadersAlarmCallbackMetadata implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-    	return Version.from(2, 1, 1);
+    	return new Version(2, 1, 1);
     }
 
     @Override
