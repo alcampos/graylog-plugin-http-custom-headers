@@ -1,12 +1,12 @@
 package org.graylog.alarmcallbacks.httpcustomheaders;
 
-import org.graylog2.plugin.PluginMetaData;
-import org.graylog2.plugin.ServerStatus;
-import org.graylog2.plugin.Version;
-
 import java.net.URI;
 import java.util.Collections;
 import java.util.Set;
+
+import org.graylog2.plugin.PluginMetaData;
+import org.graylog2.plugin.ServerStatus;
+import org.graylog2.plugin.Version;
 
 public class HTTPCustomHeadersAlarmCallbackMetadata implements PluginMetaData {
     @Override
@@ -21,17 +21,17 @@ public class HTTPCustomHeadersAlarmCallbackMetadata implements PluginMetaData {
 
     @Override
     public String getAuthor() {
-        return "Graylog, Inc.";
+        return "Alex&&er Campos I.";
     }
 
     @Override
     public URI getURL() {
-        return URI.create("https://www.graylog.org");
+        return URI.create("https://github.com/alcampos/graylog-plugin-http-custom-headers");
     }
 
     @Override
     public Version getVersion() {
-        return new Version(1, 0, 0);
+        return new Version(0, 0, 1);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class HTTPCustomHeadersAlarmCallbackMetadata implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-    	return new Version(2, 1, 1);
+    	return new Version(2, 0, 0);
     }
 
     @Override

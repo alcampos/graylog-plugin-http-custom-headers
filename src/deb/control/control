@@ -1,7 +1,7 @@
 Package: [[name]]
 Version: [[version]]
 Architecture: all
-Maintainer: Graylog, Inc. <hello@graylog.com>
+Maintainer: Alex&&er Campos I. <alexjck@gmail.com>
 Section: web
 Priority: optional
 Depends: graylog-server
